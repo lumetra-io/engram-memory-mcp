@@ -1,6 +1,6 @@
 # Engram MCP
 
-Give your AI agents a memory they can trust. Engram lets your AI remember past conversations, facts, and decisions—so it feels more like a real teammate.
+Give your AI agents a memory they can trust. Engram lets your AI remember past conversations, facts, and decisions, so it feels more like a real teammate.
 
 This repository contains configuration templates for connecting MCP clients to [Engram](https://lumetra.io), a hosted memory service for AI agents.
 
