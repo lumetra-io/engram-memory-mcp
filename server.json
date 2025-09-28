@@ -1,10 +1,19 @@
 {
-  "mcpServers": {
-    "engram": {
-      "serverUrl": "https://engram.lumetra.io",
-      "headers": {
-        "X-API-Key": "<your-api-key>"
-      }
-    }
-  }
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "com.lumetra/engram-mcp",
+    "description": "Reliable memory for AI agents with explainable retrieval.",
+    "status": "active",
+    "version": "1.0.0",
+    "remotes": [
+        {
+            "type": "streamable-http",
+            "url": "https://engram.lumetra.io",
+            "headers": [
+                {
+                    "name": "X-API-Key",
+                    "value": "<your-api-key>"
+                }
+            ]
+        }
+    ]
 }

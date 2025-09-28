@@ -108,9 +108,11 @@ Teams use Engram for:
 
 ## About This Repository
 
-This repository only contains:
-- This README with setup instructions
-- `server.json` with example MCP client configurations
+This repository contains:
+- This README with setup instructions for popular MCP clients
+- `server.json` - MCP server manifest following the official schema
+
+The `server.json` file uses the official MCP server schema and can be used by MCP clients that support remote server discovery. For manual configuration, use the client-specific examples above.
 
 The actual Engram service runs at `https://engram.lumetra.io` — there's no local installation required.
 
