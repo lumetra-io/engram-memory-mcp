@@ -31,7 +31,7 @@ claude mcp add-json engram '{"type":"http","url":"https://engram.lumetra.io","he
 {
   "mcpServers": {
     "engram": {
-      "url": "https://engram.lumetra.io",
+      "serverUrl": "https://engram.lumetra.io",
       "headers": {
         "X-API-Key": "<your-api-key>"
       }

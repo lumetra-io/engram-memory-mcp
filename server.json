@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "engram": {
-      "url": "https://engram.lumetra.io",
+      "serverUrl": "https://engram.lumetra.io",
       "headers": {
         "X-API-Key": "<your-api-key>"
       }
